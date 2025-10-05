@@ -1,11 +1,11 @@
-# 🧩 Mini Reddit API (Spring Boot)
+# Mini Reddit API (Spring Boot)
 
 This is a simple **Reddit-style REST API** built with **Spring Boot**.  
 It allows users to create, read, update, and delete **posts** and **comments**, all stored **in memory** (no database used).
 
 ---
 
-## 🚀 Features
+## Features
 - Create, view, update, and delete posts  
 - Add, update, and delete comments under posts  
 - In-memory data storage (no database required)  
@@ -14,14 +14,14 @@ It allows users to create, read, update, and delete **posts** and **comments**, 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Java 17+**
 - **Spring Boot**
 - **Maven**
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the repository
 ```bash
@@ -34,7 +34,7 @@ The backend server will start at:
 http://localhost:8080/api
 ```
 
-```📡 API Endpoints
+``` API Endpoints
 Posts
 Method	Endpoint	Description
 GET	/api/posts	Get all posts
@@ -48,7 +48,7 @@ POST	/api/posts/{postId}/comments	Add comment to a post
 PUT	/api/posts/{postId}/comments/{commentId}	Update a comment
 DELETE	/api/posts/{postId}/comments/{commentId}	Delete a comment
 ```
- Related Project
+Related Project
 
 Frontend (React + Vite): Mini Reddit Frontend
 
